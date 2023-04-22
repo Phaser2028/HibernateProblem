@@ -4,9 +4,6 @@ package org.example.model;
 import javax.persistence.*;
 import java.util.List;
 
-/**
- * @author Neil Alishev
- */
 @Entity
 @Table(name = "Director")
 public class Director {
