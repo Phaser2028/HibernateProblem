@@ -11,8 +11,10 @@ public class Movie {
     @Column(name = "movie_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    
     @Column(name = "name")
     private String name;
+    
     @Column(name = "year_of_production")
     private int year_of_production;
 
